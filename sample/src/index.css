@@ -17,7 +17,7 @@ code {
   *{
     margin: 0;
     font-family: "Bricolage+Grotesque";
-    color: darkred;
+    color: gray;
 
   }
   .navbar{
@@ -50,4 +50,17 @@ code {
     max-width: 600px;
     margin: 40px auto;
     padding: 20px;
+  }
+  .blog-preview{
+    padding: 16px 18px;
+    margin: 20px 0;
+    border-bottom: 1px solid rgb(243, 0, 0);
+  }
+  .blog-preview:hover{
+    box-shadow: 1px 3px 5px (rgba(44, 10, 10, 0.1));
+  }
+  .blog-preview h2{
+    font-size: 20px;
+    color: rgb(236, 127, 127);
+    margin-bottom: 8px;
   }
